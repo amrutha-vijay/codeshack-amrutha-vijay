@@ -74,3 +74,29 @@ Example:
 
 ## Key Takeaway
 Git tracks changes in files, while GitHub hosts repositories online and helps developers collaborate.
+
+## Feature Branch Workflow
+
+Feature branches allow developers to work on changes separately from the main branch.
+
+Example workflow:
+
+1. Create a new branch:
+   `git switch -c feature/my-change`
+
+2. Check the current branch:
+   `git branch --show-current`
+
+3. Stage your changes:
+   `git add .`
+
+4. Commit your changes:
+   `git commit -m "Describe the change"`
+
+5. Push the branch to GitHub:
+   `git push -u origin feature/my-change`
+
+6. Open a pull request to propose merging the feature branch into `main`.
+
+In a team repository, every member should work on their own branch and submit changes for review. Avoid committing directly to `main`.
+
