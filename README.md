@@ -27,3 +27,5 @@ How to Use This Handbook
 Learning Progress
 
 This handbook is being developed as part of my introduction to Git and GitHub CLI. It will grow as I practise version control, branching, and collaboration.
+
+I am learning Git through hands-on practice with CodeShack.
